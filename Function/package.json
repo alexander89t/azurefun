@@ -2,7 +2,7 @@
   "name": "azure-function-express",
   "version": "2.0.0",
   "engines": {
-    "node": ">=6.11.2 <11",
+    "node": ">=6.11.2",
     "npm": ">=6"
   },
   "dependencies": {
