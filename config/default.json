@@ -1,0 +1,11 @@
+{
+  "mongoConn": "mongodb://mongouser:cMNgcoVbJkZRzKVI@devcluster-shard-00-00-yjm2f.mongodb.net:27017,devcluster-shard-00-01-yjm2f.mongodb.net:27017,devcluster-shard-00-02-yjm2f.mongodb.net:27017/test?ssl=true&replicaSet=DevCluster-shard-0&authSource=admin&retryWrites=true",
+  "mongoDbName": "mars-db-dev",
+  "azureStorageConnection": "DefaultEndpointsProtocol=https;AccountName=filmgraildevstorage;AccountKey=gaDSrRhwgR5l+hMBmDIGmZ23bgYWCdM8aWHouIxzsC8z1p0mUmMvsUuZ72/No1pTG8sRyXuBOkMfAFGxPsT8PA==;EndpointSuffix=core.windows.net",
+  "azureStorageAccountName": "filmgraildevstorage",
+  "azureStorageUrl": "https://filmgraildevstorage.blob.core.windows.net",
+  "webFilesTable": "webFiles",
+  "webRecentFilesTable": "webRecentFiles",
+  "webFilesBlob": "web-files",
+  "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+}
