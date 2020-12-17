@@ -1,20 +1,55 @@
 {
-  "name": "node-hello",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "name": "mars",
+  "version": "0.0.3",
+  "private": true,
+  "engines": {
+    "node": ">=8.9.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
+  "dependencies": {
+    "@jest/test-utils": "0.0.0",
+    "@sendgrid/mail": "^7.4.0",
+    "ansi-to-html": "^0.6.14",
+    "aws-sdk": "^2.704.0",
+    "axios": "^0.19.2",
+    "azure-storage": "^2.10.3",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.0.0",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "diff2html": "^3.1.7",
+    "expect": "^26.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "fast-check": "^1.24.2",
+    "http": "0.0.1-security",
+    "immutable": "^4.0.0-rc.12",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.10.1",
+    "lambda-multipart": "^1.0.2",
+    "lodash": "^4.17.15",
+    "mjml": "^4.7.1",
+    "mobile-detect": "^1.4.4",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31",
+    "mongodb": "^3.5.7",
+    "mssql": "^6.2.1",
+    "qr-image": "^3.2.0",
+    "route-pattern": "0.0.6",
+    "uuid": "^8.1.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
-  },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "devDependencies------": {
+    "expect-puppeteer": "^4.4.0",
+    "puppeteer": "^5.1.0",
+    "aws-sdk": "^2.704.0",
+    "body-parser": "^1.19.0",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  }
 }
