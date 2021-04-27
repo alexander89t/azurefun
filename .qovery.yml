@@ -1,0 +1,15 @@
+---
+application:
+  name: "kinonor"
+  project: "kinonor"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "fg-test-db"
+  version: "4.4"
+routers:
+- name: "main-kinonor"
+  routes:
+  - application_name: "kinonor"
+    paths:
+    - "/*"
